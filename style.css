@@ -1,7 +1,118 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+section{
+
+    text-align: justify ;
+    font-family: 'Comic Sans', Comic Sans MS, cursive;
+    font-size: 18px;
 }
+
+h1{
+    
+        width: 100%;	
+        text-align: center ;
+        background-color: purple;
+        color: rgb(241, 188, 12);
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        direction: ltr;
+    }
+
+    h2{
+        position: fixed;
+        
+            width: 100%;	
+            text-align: center;
+            background-color: purple;
+            color: rgb(241, 188, 12);
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            direction: ltr;
+        }
+    h4{
+        color: red;
+        font-size: 30px;
+    }
+
+    a.item {
+        background-color: purple;
+        border-radius: 20px;
+        color: yellow;
+        padding: 7px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0px 2px;
+        cursor: pointer;
+        vertical-align: middle;
+        font-family: 'Comic Sans', Comic Sans MS, cursive;
+      }
+      
+
+      body{
+        background-color: beige;
+      }
+
+      .img{
+        border-radius: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .img:hover{
+        transform: scale(1.5);
+        
+    }
+    .staticimg{
+        border-radius: 20px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create four equal columns that sits next to each other */
+      .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+
+      #menu
+{	
+	position: fixed;
+	width: 100%;	
+
+}
+
+    
+  
+  
