@@ -2,7 +2,7 @@
 
 ## Chen Mordehai | 208383174  
 
-## my site: https://web-development-environments-2022.github.io/assignment1-ChenMordehai/
+## my site: https://web-development-environments-2022.github.io/208383174/
 
 ## Description
 
